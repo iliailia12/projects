@@ -1,0 +1,155 @@
+<br>
+<a href="მსოფლიო მხატვარზე ინფორმაცია.html">მსოფლიო მხატვარზე ინფორმაცია</a>
+<br>
+<a href="ინფორმაცია  ქართვწკლ  მხატვრებზე .html">ინფორმაცია  ქართვწკლ  მხატვრებზე </a><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ყიდვა/გაყიდვის გვერდი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .form-container, .list-container {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .item-list li {
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ყიდვა/გაყიდვის გვერდი</h1>
+    </header>
+    <div class="container">
+        <!-- ყიდვის ფორმა -->
+        <div class="form-container">
+            <h2>ყიდვის ფორმა</h2>
+            <form id="buy-form">
+                <label for="buy-name">სახელი:</label>
+                <input type="text" id="buy-name" name="name" required>
+
+                <label for="buy-email">ელ. ფოსტა:</label>
+                <input type="email" id="buy-email" name="email" required>
+
+                <label for="buy-item">პროდუქტის სახელი:</label>
+                <input type="text" id="buy-item" name="item" required>
+
+                <label for="buy-quantity">რაოდენობა:</label>
+                <input type="number" id="buy-quantity" name="quantity" min="1" required>
+
+                <label for="buy-message">შეტყობინება:</label>
+                <textarea id="buy-message" name="message" rows="4"></textarea>
+
+                <button type="submit">შეგიძიეთ</button>
+            </form>
+        </div>
+
+        <!-- გაყიდვის ფორმა -->
+        <div class="form-container">
+            <h2>გაყიდვის ფორმა</h2>
+            <form id="sell-form">
+                <label for="sell-name">სახელი:</label>
+                <input type="text" id="sell-name" name="name" required>
+
+                <label for="sell-email">ელ. ფოსტა:</label>
+                <input type="email" id="sell-email" name="email" required>
+
+                <label for="sell-item">პროდუქტის სახელი:</label>
+                <input type="text" id="sell-item" name="item" required>
+
+                <label for="sell-quantity">რაოდენობა:</label>
+                <input type="number" id="sell-quantity" name="quantity" min="1" required>
+
+                <label for="sell-price">ფასი:</label>
+                <input type="number" id="sell-price" name="price" step="0.01" required>
+
+                <label for="sell-message">შეტყობინება:</label>
+                <textarea id="sell-message" name="message" rows="4"></textarea>
+
+                <button type="submit">გამოწერეთ</button>
+            </form>
+        </div>
+
+        <!-- პროდუქტების სია -->
+        <div class="list-container">
+            <h2>პროდუქტების სია</h2>
+            <ul class="item-list">
+                <li><strong> ფანქრები მთელი ყუთი<br><img src="download.jfif" alt=""></strong> 8 ბ 100 ცალი ხარისხიანი 1ც 80 თეთრი
+                ფანქრები რომელიც სახატავად ყველას გამოადგება, ფასი <button>15ლ</button></li>
+                <li><strong>პასტები:</strong> <img src="download (1).jfif" alt="">100 ცალი , 50ლ </li>
+                <li><strong> სახატავი ნაკრები + 3:</strong> <img src="download (2).jfif" alt="">, ფასი 50ლ</li>
+                
+            </ul>
+        </div>
+    </div>
+    <ul class="item-list">
+        <li><strong>სახატავი ნაკრები:</strong> <img src="download (3).jfif" alt="">16 წლამდე ფასი 100ლ</li>
+        <li><strong>სახატავი გუაშები:</strong><img src="images.jfif" alt=""> +18, ფასი 100ლ </li>
+        <li><strong>:სახატავი გუაშები</strong><img src="download (4).jfif" alt=""> +18, ფასი 100ლ</li>
+
+        <ul class="item-list">
+            <li><strong>სახატავი ნაკრები:</strong> <img src="download (3).jfif" alt="">16 წლამდე ფასი 100ლ</li>
+            <li><strong>სკეტჩ მარკერები 200 ცალიანი</strong><img src="images (1).jfif" alt=""> +18, ფასი 250ლ </li>
+            <li><strong>:სკეტჩ ბუქები 4 ცალი</strong><img src="download (5).jfif" alt=""> +18, ფასი 40ლ</li>
+            <ul class="item-list">
+                <li><strong>სკოლის ნაკრები: </strong><img src="images (2).jfif" alt="">ფასი 300ლ</li>
+                
+</body>
+</html>
