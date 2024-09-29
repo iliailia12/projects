@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>რეგისტრაციის ფორმა</h1><br>
+        <form action="/submit" method="post"><br>
+            <label for="first-name">სახელი:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="თქვენი სახელი" required><br>
+            
+            <label for="last-name">გვარი:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="თქვენი გვარი" required><br>
+            
+            <label for="email">ელექტრონული ფოსტა:</label><br>
+            <input type="email" id="email" name="email" placeholder="ელექტრონული ფოსტა" required><br>
+            
+            <label for="phone">ტელეფონის ნომერი:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+995 000 000 000" required><br>
+            
+            <label for="password">პაროლი:</label><br>
+            <input type="password" id="password" name="password" placeholder="თქვენი პაროლი" required><br>
+            
+            <div class="checkbox-container"><br>
+                <input type="checkbox" id="terms" name="terms" required><br>
+                <label for="terms">მე ვეთანხმები <a href="#">მომხმარებლის პირობებს</a></label><br>
+            </div><br>
+            
+            <button type="submit">რეგისტრირება</button><br>
+        </form>
+    </div>
+</body>
+</html>
