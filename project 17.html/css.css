@@ -1,0 +1,249 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button Styles */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5f85;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+.card {
+    padding: 20px;
+    margin: 20px 0; /* გარეთ მარყუჟი */
+}
+h1, h3 {
+    text-transform: uppercase; /* დიდების გარდასახვა */
+}
+h1:hover {
+    color: #3498db; /* ღილაკების მორგება */
+    transition: color 0.3s ease;
+}
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* გარეთ მარყუჟი */
+}
+
+/* Header Styles */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* დიდების გარდასახვა */
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button Styles */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5f85;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* გარეთ მარყუჟი */
+}
+
+/* Header Styles */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* დიდების გარდასახვა */
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Button Styles */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5f85;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
